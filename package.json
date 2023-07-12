@@ -3,6 +3,9 @@
     "version": "1.2.14",
     "private": true,
     "homepage": "https://flowiseai.com",
+    "scripts": {
+    "deploy": "yarn && yarn install && yarn build && yarn start"
+     },
     "workspaces": [
         "packages/*",
         "flowise",
